@@ -256,3 +256,78 @@ RESPONSIVE
         margin: 10px;
     }
 }
+@media  screen and (min-width: 1160px){
+    /*header menu*/
+    .mobile-tablet{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    .container{
+        width: 800px;
+    }
+    /*demo application*/
+    .white{
+        height: 870px;
+        margin: 0;
+    }
+    .height-605,
+    .height-360{
+        height: 350px;
+    }
+    /*STRATEGIC AND APP*/
+    .height-1400{
+        height: 925px;
+    }
+    .d-flex{
+        align-items: flex-end;
+    }
+    .d-flex .col-100:first-child{
+        width: 60%;
+    }
+    .d-flex .col-100{
+        width: 40%;
+    }
+    .strategic-plan{
+        height: 750px;
+    }
+    .app-devel{
+        height: 355px;
+    }
+    /*COMMITTED PARTNERS*/
+    .height-2170{
+        height: 1340px;
+    }
+    .height-510{
+        height: 280px;
+    }
+    /*WORKING WITH US*/
+    .height-2830{
+        height: 1120px;
+    }
+    .height-2830 .container .square-wrap .col-100:nth-child(n+2){
+        width: calc(100%/3);
+    }
+    .height-400{
+        height: 420px;
+    }
+    /*ABOUT US*/
+    .height-1600{
+        height: 880px;
+    }
+    .height-1015{
+        height: 760px;
+    }
+    .height-440{
+        height: 580px;
+    }
+    /*FREE*/
+    .height-620{
+        height: 630px;
+    }
+    /*footer*/
+    .height-240{
+        height: 230px;
+    }
+}
