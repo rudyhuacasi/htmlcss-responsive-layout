@@ -45,18 +45,10 @@
 .col-100{
     width: 100%;
 }
-/*
 .square-wrap{
     display: flex;
     flex-wrap: wrap;
 }
-.col-32{
-    width: calc(100%/3*2);
-}
-.col-33{
-    width: calc(100%/3);
-}
-*/
 .height-605{
     height: 605px;
     background-color: #b5ddff;
@@ -129,11 +121,9 @@
 .height-1600{
     height: 1600px;
 }
-/*
 .d-row{
     display: flex;
 }
-*/
 .height-1015{
     height: 1015px;
     border: 1px solid black;
@@ -151,12 +141,10 @@
 .height-620{
     height: 620px;
 }
-/*
 .center{
     display: flex;
     justify-content: center;
 }
-*/
 .height-500{
     height: 500px;
     border: 1px solid black;
@@ -171,4 +159,100 @@
 .height-100{
     height: 100px;
     border: 1px solid black;
+}
+/*************************************
+RESPONSIVE
+*************************************/
+@media screen and (min-width: 768px) {
+    /*header menu*/
+    .menu{
+        margin: 10px;
+    }
+    /*demo application*/
+    .white {
+        height: 1200px;
+        margin: 2rem 0;
+    }
+    
+    .square-wrap .col-100:first-child{
+        width: calc(100%/3*2);
+    }
+    .square-wrap .col-100{
+        width: calc(100%/3);
+    }
+    .height-605,
+    .height-360 {
+        height: 570px;
+        margin: 10px;
+    }
+    /*STRATEGIC AND APP*/
+    .height-1400{
+        height: 2100px;
+    }
+    .d-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .strategic-plan{
+        height: 1030px;
+        margin: 10px;
+    }
+    .app-devel{
+        height: 880px;
+        margin: 10px;
+    }
+    /*COMMITTED PARTNERS*/
+    .height-2170{
+        height: 1340px;
+    }
+    .height-320,
+    .height-510 {
+        margin: 35px 10px;
+    }
+    .height-320{
+        height: 250px;
+    }
+    .height-510{
+        height: 280px;
+    }
+    /*WORKING WITH US*/
+    .height-2830{
+        height: 1560px;
+    }
+    .height-2830 .container .square-wrap .col-100:first-child{
+        width: 100%;
+    }
+    .height-2830 .container .square-wrap .col-100 {
+        width: 50%;
+    }
+    .height-120,
+    .height-400{
+        margin: 15px;
+    }
+    /*ABOUT US*/
+    .height-1600{
+        height: 1075px;
+    }
+    .d-row .col-100:first-child{
+        width: 70%;
+    }
+    .d-row .col-100{
+        width: 30%;
+    }
+    .height-1015,
+    .height-440{
+        margin: 10px;
+    }
+    .height-1015{
+        height: 900px;
+    }
+    .height-440{
+        height: 560px;
+    }
+    /*FREE*/
+    /*footer*/
+    .height-500,
+    .height-100{
+        margin: 10px;
+    }
 }
