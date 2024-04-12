@@ -7,7 +7,7 @@
 .row{
     display: flex;
     align-items: center;
-    padding: 0 2rem;
+    padding: 2rem;
 }
 .lightblue{
     background-color: #0084fd;
@@ -42,7 +42,7 @@
 }
 /* demo application */
 .white{
-    margin: 2rem 0;
+    padding: 2rem;
 }
 .col-100{
     width: 100%;
@@ -97,38 +97,79 @@
     background-color: #9792e4;
 }
 .height-1400{
-    height: 1400px;
+    padding: 4rem 2rem 2rem;
 }
-/*
-.d-flex{
-    display: flex;
-    align-items: flex-end;
+.planning1{
+    width: 100%;
 }
-*/
+.plan{
+    color: white;
+    margin: 30px 0;
+}
 .strategic-plan{
-    height: 645px;
-    border: 1px solid black;
-    margin: 25px 0;
+    line-height: 1.5;
+    color: white;
 }
 .app-devel{
     background-color: white;
-    height: 615px;
+    margin: 30px 0;
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px 20px 0;
+}
+.planning2{
+    width: 100%;
+}
+.develop{
+    margin: 20px;
+}
+.interruption{
+    line-height: 1.7;
+    margin: 10px;
+}
+.fa-arrow-down{
+    border-radius: 50%;
+    padding: 15px;
     margin: 25px 0;
-    border-radius: 25px;
 }
 /*COMMITTED PARTNERS*/
-.height-2170{
-    height: 2170px;
+.height-320,
+.height-510{
+    margin: 30px 0;
 }
 .height-320{
-    height: 320px;
-    margin: 30px 0;
-    
+    text-align: center;
+    padding: 0 90px;
+}
+.expert{
+    color: #9792e4;
+    margin: 25px 0;
+}
+.testimonials{
+    line-height: 1.5;
 }
 .height-510{
-    height: 510px;
-    margin: 30px 0;
     border-radius: 25px;
+    margin: 30px 0;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.testimonial1{
+    width: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.nome{
+    margin-top: 30px;
+    letter-spacing: 0.5vw;
+}
+.virgo{
+    position: relative;
+    bottom: 3px;
+    margin: 0 5px;
 }
 .bianco{
     border: 1px solid black;
