@@ -180,34 +180,68 @@
 }
 .height-120{
     height: 120px;
-    border: 1px solid black;
     margin: 30px 0;
 }
+.title{
+    color: white;
+    font-size: 49px;
+    text-align: center;
+}
 .height-400{
-    height: 400px;
     background-color: white;
-    margin: 30px 0;
+    margin: 20px 0;
     border-radius: 25px;
+    padding: 2rem;
+    line-height: 1.8;
+}
+.number{
+    color: #9792e4;
+    font-size: 50px;
+    margin: -20px 0px;
+}
+.button{
+    width: 50%;
+    background-color: #9792e4;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    margin-top: 1.5rem;
+    letter-spacing: 0.5vw;
 }
 /*ABOUT US*/
 .height-1600{
-    height: 1600px;
-}
-.d-row{
-    display: flex;
+    padding: 3rem 2rem;
 }
 .height-1015{
-    height: 1015px;
-    border: 1px solid black;
-    margin: 10px 0;
+    padding: 0 1rem;
+    line-height: 1.8;
 }
-.col-30{
-    width: 30%;
+.pd-40{
+    padding: 40px 0;
 }
 .height-440{
     height: 440px;
     border: 1px solid black;
     margin: 10px 0;
+    padding: 0 1rem;
+}
+.about{
+    position: relative;
+}
+.pu-quo{
+    position: absolute;
+    top: 5px;
+    font-size: 65px;
+    left: 150px;
+    color: #9792e4;
+}
+.linkedin{
+    width: 50%;
+    background-color: #9792e4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 25px;
 }
 /*FREE*/
 .height-620{
