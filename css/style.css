@@ -140,7 +140,7 @@
 }
 .height-320{
     text-align: center;
-    padding: 0 90px;
+    padding: 0 80px;
 }
 .expert{
     color: #9792e4;
@@ -148,6 +148,8 @@
 }
 .testimonials{
     line-height: 1.5;
+    margin-bottom: 30px;
+    position: relative;
 }
 .height-510{
     border-radius: 25px;
@@ -166,21 +168,18 @@
 .nome{
     margin-top: 30px;
     letter-spacing: 0.5vw;
+    font-weight: 900
 }
 .virgo{
     position: relative;
     bottom: 3px;
     margin: 0 5px;
 }
-.bianco{
-    border: 1px solid black;
-}
 /*WORKING WITH US*/
 .purple-2{
     height: 900px;
 }
 .height-120{
-    height: 120px;
     margin: 30px 0;
 }
 .title{
@@ -283,6 +282,9 @@
 .copy{
     margin-left: 40px;
 }
+.tablet-desktop{
+    display: none;
+}
 li:nth-child(4),
 li:first-child{
     list-style-type: none;
@@ -317,16 +319,10 @@ li:nth-child(4){
 RESPONSIVE
 *************************************/
 @media screen and (min-width:768px) {
-    /*header menu*/
-    .menu{
-        margin: 10px;
-    }
     /*demo application*/
     .white {
-        height: 1200px;
         margin: 2rem 0;
     }
-    
     .square-wrap .col-100:first-child{
         width: calc(100%/3*2);
     }
@@ -335,42 +331,60 @@ RESPONSIVE
     }
     .height-605,
     .height-360 {
-        height: 570px;
         margin: 10px;
+    }
+    .height-737{
+        height: 737.4px;
+    }
+    .height-360{
+        padding: 2rem 1rem;
     }
     /*STRATEGIC AND APP*/
-    .height-1400{
-        height: 2100px;
-    }
-    .d-flex {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .strategic-plan{
-        height: 1030px;
-        margin: 10px;
-    }
-    .app-devel{
-        height: 880px;
-        margin: 10px;
+    .height-1400 {
+        padding: 5.5rem 2rem 2rem;
+      }
+    .plan{
+        font-size: 60px;
     }
     /*COMMITTED PARTNERS*/
     .height-2170{
         height: 1340px;
     }
-    .height-320,
-    .height-510 {
-        margin: 35px 10px;
-    }
-    .height-320{
-        height: 250px;
-    }
     .height-510{
-        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .expert{
+        font-size: 34px;
+    }
+    .testimonial1{
+        width: 30%;
+    }
+    .testimonial1,
+    .nome{
+        margin: 0;
+    }
+    .nome{
+        position: absolute;
+        bottom: 55px;
+        left: 235px;
+    }
+    .testimo{
+        width: 70%;
+        text-align: left;
+        padding: 2rem 1rem;
     }
     /*WORKING WITH US*/
     .height-2830{
-        height: 1560px;
+        padding: 2rem 1rem;
+    }
+    .fo-s-25{
+        font-size: 25px;
+        margin: 25px 0;
+    }
+    .number{
+        font-size: 60px;
     }
     .height-2830 .container .square-wrap .col-100:first-child{
         width: 100%;
@@ -380,33 +394,62 @@ RESPONSIVE
     }
     .height-120,
     .height-400{
-        margin: 15px;
+        margin: 20px;
     }
     /*ABOUT US*/
-    .height-1600{
-        height: 1075px;
+    .d-row{
+        display: flex;
     }
     .d-row .col-100:first-child{
-        width: 70%;
+        width: 55%;
+    }
+    .mar-b{
+        margin: 0 0 20px;
+        font-size: 60px;
     }
     .d-row .col-100{
-        width: 30%;
+        width: 45%;
     }
     .height-1015,
     .height-440{
         margin: 10px;
     }
-    .height-1015{
-        height: 900px;
-    }
     .height-440{
-        height: 560px;
+        padding: 2rem 3rem;
+    }
+    .wid-90{
+        width: 90%;
     }
     /*FREE*/
+    .companies{
+        font-size: 27px;
+    }
+    .pad-110{
+        padding: 0 110px;
+    }
+    .fos-45{
+        font-size: 45px;
+    }
+    .free{
+        font-size: 80px;
+    }
+    .ted{
+        width: 35%;
+        padding: 20px 0;
+    }
+    .copy {
+        margin-left: 150px;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet-desktop{
+        display: list-item;
+    }
     /*footer*/
-    .height-500,
     .height-100{
-        margin: 10px;
+        width: 57%;
+        text-align: center;
     }
 }
 @media  screen and (min-width: 1160px){
